@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('../fonts/futured-webfont.woff2') format('woff2'),
+         url('../fonts/futured-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'trenchthin';
+    src: url('../fonts/trench100free-webfont.woff2') format('woff2'),
+         url('../fonts/trench100free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar-custom {
+    color: black;
+    background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    border:none;
+    border-radius: 0;
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    
+}
+.nav a {
+    color: black;
+    font-family: trenchthin;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav > li> a:hover{
+  transition: background-color 1000ms ease-in, color 500ms ease-in;
+  background-color:black;
+  color:white;
+  
+}
+.nav > li > a > img:hover{
+    transform: none;
+    transition: none;
+    background-color: none;
+    color: none;
+}
+
+
+.nav {
+    float: none;
+    
+}
+.nav li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.active{
+    color:none;
+    background-color:none;
+    background:none;
+}
+.active a{
+    /*this is for the active selection on the navbar*/
+    background: -webkit-linear-gradient(top, #4c4c4c 0%,#2c2c2c 44%,#000000 56%,#131313 100%);
+    color:white !important;
+}
+.NavLogo {
+    font-family: webfontregular;
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+    
+}
+.NavLogo a{
+    text-decoration: none;
+    color: black;
+}
+.NavLogo a:hover{
+    text-decoration: none;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.pictureHeader {
+    height:50px;
+    
+}
+.carousel-caption p {
+    text-shadow: 3px 3px 3px black
+    
+}
+.ArticleTitle {
+    font-size: 60px;
+    align-content: center;
+    text-align: center;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    font-family: trenchthin;
+    font-weight: bold;
+    background-color: white;
+    background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+}
+.sectionMain{
+    height: 100%;
+    width:100%;
+    background-color: #e3e3e3
+}
+.article {
+    height: 100%;
+    width 100%;
+}
+
+.panelImage img{
+    width: 100%;
+    box-shadow: 10px 10px 5px grey;
+}
+.panelText {
+    font-size: 20px;
+    
+}
+
+.panelHeader {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: trenchthin;
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    color: #000000;
+    font-size: 36px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    width: 100%;
+    font-family: trenchthin;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+}
+
+.btn:hover {
+    transition: background-color 1000ms ease-in, color 500ms ease-in, border-color 500ms ease-in;
+    background-color:black;
+    color:white;
+    border-color: white;
+    background-image: none;
+}
+.panel-body{
+    box-shadow: 10px 10px 5px grey;
+    height: 100%; 
+}
+
+.dropdown-menu > li > a{
+    font-weight: bold;
+}
+.dropdown-menu{
+    background-image:-webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+}
+
+#divWrapper {
+    min-height: 100%;
+    width: 100%;
+    display: block;
+    background-color: #e3e3e3
+}
+
+.footer {
+    background-color: grey;
+    height: 35px;
+}
+html, body {
+   height: 100vh;
+}
+.CarTitle {
+    font-size: 60px;
+    align-content: center;
+    text-align: center;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    font-family: trenchthin;
+    font-weight: bold;
+    background-color: white;
+    background-image:-webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    color:black;
+
+}
+
+.carHeader {
+    width: 100%;
+}
+
+.textBold {
+    font-family: trenchthin;
+    font-weight: bold;
+}
+
+.accText p{
+    font-size:18px;
+    
+}
+
+.accText p{
+    font-size: 13pt;
+}
+.imageWidth img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#map {
+        height: 400px;
+        width: 100%;
+       }
+.CarTitle2 {
+    font-size: 45px;
+    align-content: center;
+    text-align: center;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    font-family: trenchthin;
+    font-weight: bold;
+    background-color: white;
+    background-image:-webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    color:black;
+}
+.carHeader2 {
+    width: 100%;
+    
+}
